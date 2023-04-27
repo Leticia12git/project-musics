@@ -1,7 +1,6 @@
 # Projeto de Músicas - Desafio Alura
 
-Este projeto foi desenvolvido para explicar os principais conceitos de Java e Orientação a Objetos.
-Nele contem os principais conceitos de Orientação a Objetos que são:
+Este projeto foi desenvolvido para explicar os principais pilares de Java e Orientação a Objetos :
 - Encapsulamento
 - Herança
 - Abstração
