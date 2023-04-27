@@ -8,7 +8,7 @@ public class Audio {
     private int totalCurtidas;
     private int classificacao;
 
-    public String getTitulo(String s) {
+    public String getTitulo(String titulo) {
         return titulo;
     }
 

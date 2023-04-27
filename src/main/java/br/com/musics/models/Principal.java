@@ -20,7 +20,6 @@ public class Principal {
         System.out.println("---------------------------------------------------------");
 
 
-
         Musics musics = new Musics();
         musics.setArtist("Harry Style");
         musics.setAlbum("As it was");
@@ -48,11 +47,18 @@ public class Principal {
         podcast.reproduzir();
         System.out.println("Todas as informações do podcast" + podcast);
 
-        if (podcast.getCurtidas() >= 1000){
+        if (podcast.getCurtidas() >= 1000) {
             System.out.println("Este podcast é ótimo");
-        }else{
-                System.out.println("Escute este podcast depois");
-            }
-     }
+        } else {
+            System.out.println("Escute este podcast depois");
+        }
+
+        Preferidas preferidas = new Preferidas();
+        preferidas.inclui(podcast);
+        preferidas.inclui(musics);
     }
+}
+
+
+
 
